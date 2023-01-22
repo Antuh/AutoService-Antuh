@@ -49,7 +49,10 @@ namespace AutoService.Antuh.View
             }
             else
             {
-                MessageBox.Show("Такого пользователя не существует");
+                TimeError f = new TimeError();
+                f.Show();
+                this.Close();
+                /*MessageBox.Show("Такого пользователя не существует");
                 String allowchar = " ";
                 allowchar = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z";
                 allowchar += "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,y,z";
@@ -64,7 +67,7 @@ namespace AutoService.Antuh.View
                     temp = ar[(r.Next(0, ar.Length))];
                     pwd += temp;
                 }
-                tb_capcha.Text = pwd;
+                tb_capcha.Text = pwd;*/
             }
         }
     }

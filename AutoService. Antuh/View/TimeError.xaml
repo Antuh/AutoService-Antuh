@@ -1,0 +1,14 @@
+﻿<Window x:Class="AutoService.Antuh.View.TimeError"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoService.Antuh.View"
+        mc:Ignorable="d"
+        Title="TimeError" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="tb_count" TextAlignment="Center" FontSize="70" FontFamily="Segoe UI Light" Margin="140,145,135,75"/>
+        <Label x:Name="lb_error" Content="Вы неудачно авторизовались и ввели capcha&#xD;&#xA;     Повторить попытку вы сможете через:&#xD;&#xA;" HorizontalAlignment="Left" Margin="140,34,0,0" VerticalAlignment="Top" Width="540" FontSize="24"/>
+
+    </Grid>
+</Window>
