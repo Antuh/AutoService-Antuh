@@ -1,0 +1,22 @@
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\AutoService.Antuh.exe.config
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\AutoService.Antuh.exe
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\AutoService.Antuh.pdb
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\EntityFramework.dll
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\EntityFramework.xml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\ru\EntityFramework.resources.dll
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService. Antuh.csproj.AssemblyReference.cache
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Authorization.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\App.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh_Content.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh_MarkupCompile.cache
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh_MarkupCompile.lref
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Authorization.baml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh.g.resources
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh.Properties.Resources.resources
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService. Antuh.csproj.GenerateResource.cache
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService. Antuh.csproj.CoreCompileInputs.cache
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService. Antuh.csproj.CopyComplete
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh.exe
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh.pdb

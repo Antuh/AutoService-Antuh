@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AutoserviceModelContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Manufacture">
+      <EntityTypeMapping TypeName="AutoserviceModel.Manufacture">
+        <MappingFragment StoreEntitySet="Manufacture">
+          <ScalarProperty Name="IDManufacture" ColumnName="IDManufacture" />
+          <ScalarProperty Name="Manufacture1" ColumnName="Manufacture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order">
+      <EntityTypeMapping TypeName="AutoserviceModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="IDOrderStatus" ColumnName="IDOrderStatus" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="OrderDeliveryDate" ColumnName="OrderDeliveryDate" />
+          <ScalarProperty Name="OrderPickupPoint" ColumnName="OrderPickupPoint" />
+          <ScalarProperty Name="ClientFullName" ColumnName="ClientFullName" />
+          <ScalarProperty Name="ReceiptCode" ColumnName="ReceiptCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderProduct">
+      <EntityTypeMapping TypeName="AutoserviceModel.OrderProduct">
+        <MappingFragment StoreEntitySet="OrderProduct">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ProductArticleNumber" ColumnName="ProductArticleNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PickupPoint">
+      <EntityTypeMapping TypeName="AutoserviceModel.PickupPoint">
+        <MappingFragment StoreEntitySet="PickupPoint">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Addres" ColumnName="Addres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="AutoserviceModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ProductArticleNumber" ColumnName="ProductArticleNumber" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductDescription" ColumnName="ProductDescription" />
+          <ScalarProperty Name="IDProductCategory" ColumnName="IDProductCategory" />
+          <ScalarProperty Name="ProductPhoto" ColumnName="ProductPhoto" />
+          <ScalarProperty Name="IDManufacture" ColumnName="IDManufacture" />
+          <ScalarProperty Name="ProductCost" ColumnName="ProductCost" />
+          <ScalarProperty Name="ProductDiscountAmount" ColumnName="ProductDiscountAmount" />
+          <ScalarProperty Name="ProductQuantityInStock" ColumnName="ProductQuantityInStock" />
+          <ScalarProperty Name="IDUnit" ColumnName="IDUnit" />
+          <ScalarProperty Name="MaxDiscountAmount" ColumnName="MaxDiscountAmount" />
+          <ScalarProperty Name="IDSupplier" ColumnName="IDSupplier" />
+          <ScalarProperty Name="CountPack" ColumnName="CountPack" />
+          <ScalarProperty Name="MinCount" ColumnName="MinCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductCategors">
+      <EntityTypeMapping TypeName="AutoserviceModel.ProductCategors">
+        <MappingFragment StoreEntitySet="ProductCategors">
+          <ScalarProperty Name="IDProductCategory" ColumnName="IDProductCategory" />
+          <ScalarProperty Name="ProductCategory" ColumnName="ProductCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="AutoserviceModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusOrders">
+      <EntityTypeMapping TypeName="AutoserviceModel.StatusOrders">
+        <MappingFragment StoreEntitySet="StatusOrders">
+          <ScalarProperty Name="IDStatusOrder" ColumnName="IDStatusOrder" />
+          <ScalarProperty Name="StatusOrder" ColumnName="StatusOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="AutoserviceModel.Suppliers">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="IDSupplier" ColumnName="IDSupplier" />
+          <ScalarProperty Name="Supplier" ColumnName="Supplier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AutoserviceModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Units">
+      <EntityTypeMapping TypeName="AutoserviceModel.Units">
+        <MappingFragment StoreEntitySet="Units">
+          <ScalarProperty Name="IDUnit" ColumnName="IDUnit" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="AutoserviceModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserSurname" ColumnName="UserSurname" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPatronymic" ColumnName="UserPatronymic" />
+          <ScalarProperty Name="UserLogin" ColumnName="UserLogin" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
