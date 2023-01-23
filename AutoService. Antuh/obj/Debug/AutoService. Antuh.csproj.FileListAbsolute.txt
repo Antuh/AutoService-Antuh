@@ -22,3 +22,5 @@ D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\Auto
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh.pdb
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\TimeError.g.cs
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\TimeError.baml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Client.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Client.baml

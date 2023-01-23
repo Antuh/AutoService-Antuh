@@ -13,9 +13,10 @@
         <TextBlock x:Name="tbl_auth" Margin="317,32,306,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" FontSize="26"/>
         <TextBox x:Name="tb_login"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" FontSize="22" Margin="279,118,0,0"/>
         <TextBlock x:Name="tbl_password" HorizontalAlignment="Left" Margin="280,169,0,220" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Center" FontSize="22" Width="84"/>
-        <Button x:Name="btn_voity" Content="Войти" HorizontalAlignment="Left" Margin="329,340,0,0" VerticalAlignment="Top" Width="120" Height="27" Click="btn_voity_Click"/>
+        <Button x:Name="btn_voity" Content="Войти" HorizontalAlignment="Left" Margin="265,342,0,0" VerticalAlignment="Top" Width="120" Height="27" Click="btn_voity_Click" RenderTransformOrigin="0.506,0.521"/>
         <PasswordBox x:Name="tb_password" HorizontalAlignment="Left" Margin="280,204,0,0" VerticalAlignment="Top" Width="235" Height="31"/>
-        <TextBox x:Name="tb_capcha" HorizontalAlignment="Left" Height="23" Margin="75,204,0,0" TextWrapping="Wrap" Text="capcha" VerticalAlignment="Top" Width="120"/>
+        <Image x:Name="img_capcha" HorizontalAlignment="Left" Height="100" Margin="627,118,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btn_seeclient" Content="Просмотр товаров" HorizontalAlignment="Left" Margin="412,342,0,0" VerticalAlignment="Top" Width="117" Height="27" Click="btn_seeclient_Click"/>
 
     </Grid>
 </Window>
