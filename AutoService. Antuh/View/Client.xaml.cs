@@ -30,9 +30,18 @@ namespace AutoService.Antuh.View
         {
             var query =
             from product in m.Product
-            select new { product.ProductName, product.ProductDescription };
+            from suppliers in m.Suppliers
+            select new { product.ProductName, product.ProductDescription, suppliers.Supplier, product.ProductCost };
 
             dataGrid1.ItemsSource = query.ToList();
+
+            var query2 =
+            from product in m.Product
+            select new { product.ProductDiscountAmount };
+
+            dataGrid2.ItemsSource = query2.ToList();
+            //DataGridRow row = (DataGridRow)dataGrid1.ItemContainerGenerator.ContainerFromIndex(0);
+            //row.Background = Brushes.Aqua;
         }
     }
 }

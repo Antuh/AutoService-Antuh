@@ -8,6 +8,7 @@
         Title="Client" Height="450" Width="800"
         Loaded="Window_Loaded">
     <Grid>
-        <DataGrid Name="dataGrid1" />
+        <DataGrid Name="dataGrid1" Margin="197,82,250,129" />
+        <DataGrid x:Name="dataGrid2" Margin="568,82,52,129" />
     </Grid>
 </Window>
