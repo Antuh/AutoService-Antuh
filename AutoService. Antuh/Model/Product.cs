@@ -38,6 +38,29 @@ namespace AutoService.Antuh.Model
         public virtual Manufacture Manufacture { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<OrderProduct> OrderProduct { get; set; }
+        public string Background
+        {
+            get
+            {
+                if (this.ProductDiscountAmount > 15)
+                    return "#7fff00";
+                return "#fff";
+            }
+        }
+        public string CostWithDiscount
+        {
+            get
+            {
+                if (this.MaxDiscountAmount > 0)
+                {
+                    var CostWithDiscount = Convert.ToDouble(this.ProductCost) - Convert.ToDouble(this.ProductCost) * Convert.ToDouble(this.ProductDiscountAmount / 100.00);
+                    return CostWithDiscount.ToString();
+                }
+                return this.ProductCost.ToString();
+                   
+            }
+        }
+
         public virtual ProductCategors ProductCategors { get; set; }
         public virtual Suppliers Suppliers { get; set; }
         public virtual Units Units { get; set; }

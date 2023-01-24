@@ -6,7 +6,6 @@ D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\Enti
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\EntityFramework.xml
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\EntityFramework.SqlServer.xml
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\bin\Debug\ru\EntityFramework.resources.dll
-D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService. Antuh.csproj.AssemblyReference.cache
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Authorization.g.cs
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\App.g.cs
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService.Antuh_Content.g.cs
@@ -24,3 +23,4 @@ D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\TimeError.baml
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Client.g.cs
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Client.baml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService. Antuh.csproj.AssemblyReference.cache

@@ -19,7 +19,14 @@ namespace AutoService.Antuh.Model
             : base("name=Entities")
         {
         }
-    
+        private static Entities contex;
+        public static Entities GetContex()
+        {
+            if (contex == null)
+                contex = new Entities();
+            return contex;
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
