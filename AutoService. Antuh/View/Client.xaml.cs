@@ -23,15 +23,16 @@ namespace AutoService.Antuh.View
         public Client(string name)
         {
             InitializeComponent();
-            Name = name;
-            MessageBox.Show(Name);
+            string named = name;
+            tb_user.Text = Convert.ToString(named);
 
             var product = Entities.GetContex().Product.ToList();
             LViewProduct.ItemsSource = product;
             DataContext = this;
 
             textAllAmount.Text = product.Count().ToString();
-
+            //loginDErfg2018
+            //5ovb1N
             UpdateData();
         }
         public string[] SortingList { get; set; } =

@@ -51,6 +51,7 @@ namespace AutoService.Antuh.View
                         var name = use;
                         Client f = new Client(name);
                         f.Show();
+                        this.Close();
                         break;
                 }
             }
