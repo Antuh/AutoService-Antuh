@@ -5,18 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AutoService.Antuh.View"
         mc:Ignorable="d"
-        Title="Authorization" Height="450" Width="800">
+        Title="Authorization" Height="561" Width="814" Icon="D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\Resorce\icon.ico">
     <Grid>
 
-        <Rectangle Height="383" Stroke="Black" VerticalAlignment="Top" Margin="236,10,235,0"/>
-        <TextBlock x:Name="tbl_login" HorizontalAlignment="Left" Margin="280,84,0,306" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Center" FontSize="22"/>
-        <TextBlock x:Name="tbl_auth" Margin="317,32,306,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" FontSize="26"/>
-        <TextBox x:Name="tb_login"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" FontSize="22" Margin="279,118,0,0"/>
-        <TextBlock x:Name="tbl_password" HorizontalAlignment="Left" Margin="280,169,0,220" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Center" FontSize="22" Width="84"/>
-        <Button x:Name="btn_voity" Content="Войти" HorizontalAlignment="Left" Margin="265,342,0,0" VerticalAlignment="Top" Width="120" Height="27" Click="btn_voity_Click" RenderTransformOrigin="0.506,0.521"/>
-        <PasswordBox x:Name="tb_password" HorizontalAlignment="Left" Margin="280,204,0,0" VerticalAlignment="Top" Width="235" Height="31"/>
-        <Image x:Name="img_capcha" HorizontalAlignment="Left" Height="100" Margin="627,118,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="btn_seeclient" Content="Просмотр товаров" HorizontalAlignment="Left" Margin="412,342,0,0" VerticalAlignment="Top" Width="117" Height="27" Click="btn_seeclient_Click"/>
+        <Rectangle Height="412" Stroke="#FF7E7979" VerticalAlignment="Top" Margin="234,82,244,0"/>
+        <TextBlock x:Name="tbl_login" HorizontalAlignment="Left" Margin="283,151,0,350" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Center" FontSize="22" RenderTransformOrigin="2.37,0.5"/>
+        <TextBlock x:Name="tbl_auth" Margin="316,82,308,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" FontSize="26"/>
+        <TextBox x:Name="tb_login"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" FontSize="22" Margin="282,185,0,0"/>
+        <TextBlock x:Name="tbl_password" HorizontalAlignment="Left" Margin="282,221,0,280" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Center" FontSize="22" Width="84"/>
+        <Button x:Name="btn_voity" Content="Войти" HorizontalAlignment="Left" Margin="415,433,0,0" VerticalAlignment="Top" Width="101" Height="41" Click="btn_voity_Click" RenderTransformOrigin="0.506,0.521" Background="#FF498C51"/>
+        <PasswordBox x:Name="tb_password" HorizontalAlignment="Left" Margin="283,255,0,0" VerticalAlignment="Top" Width="235" Height="31"/>
+        <Button x:Name="btn_seeclient" Content="Войти как гость" HorizontalAlignment="Left" Margin="282,433,0,0" VerticalAlignment="Top" Width="101" Height="41" Click="btn_seeclient_Click" RenderTransformOrigin="0.276,0.037" Background="#FF498C51"/>
+        <Grid HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="806" Background="#FF76E383" OpacityMask="Black">
+            <Image HorizontalAlignment="Left" Height="46" Margin="10,10,0,0" VerticalAlignment="Top" Width="48" Source="D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\Resorce\logo.png" OpacityMask="Black"/>
+            <Button x:Name="btn_exit" Content="Выход" HorizontalAlignment="Left" Margin="692,14,0,0" VerticalAlignment="Top" Width="100" Height="38" Background="#FF498C51" Click="btn_exit_Click" OpacityMask="Black"/>
+        </Grid>
+        <Image x:Name="img_capcha" HorizontalAlignment="Left" Height="57" Margin="283,306,0,0" VerticalAlignment="Top" Width="234" OpacityMask="White"/>
+        <PasswordBox x:Name="tb_capcha" HorizontalAlignment="Left" Margin="282,378,0,0" VerticalAlignment="Top" Width="235" Height="31"/>
 
     </Grid>
 </Window>

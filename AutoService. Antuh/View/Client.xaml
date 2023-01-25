@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AutoService.Antuh.View"
         mc:Ignorable="d"
         Title="Client" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,71,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="220*"/>
             <ColumnDefinition Width="200*"/>
@@ -21,11 +21,11 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Right">
-            <TextBlock Text="Пользователь: "/>
+            <TextBlock x:Name="tb_user" Text="Пользователь: "/>
             <TextBlock x:Name="textFullName"/>
         </StackPanel>
-        
-        <TextBox Name="txtSearch" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5,0,5,0"/>
+
+        <TextBox Name="txtSearch" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5,17" Height="22"/>
         <ComboBox Name="cmbSorting" Grid.Row="1" Grid.Column="1" SelectedIndex="0" VerticalAlignment="Center" Margin="5,0,5,0" ItemsSource="{Binding SortingList}" SelectionChanged="cmbSorting_SelectionChanged" />
         <ComboBox Name="cmbFilter" Grid.Row="1" Grid.Column="2" SelectedIndex="0" Margin="5,0,5,0" VerticalAlignment="Center" ItemsSource="{Binding FilterList}" SelectionChanged="cmbFilter_SelectionChanged"/>
 
@@ -69,5 +69,9 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Grid HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="794" Background="#FF76E383" OpacityMask="Black" Grid.ColumnSpan="4" Margin="-2,-71,0,0">
+            <Image HorizontalAlignment="Left" Height="46" Margin="10,10,0,0" VerticalAlignment="Top" Width="48" Source="/AutoService.Antuh;component/Resorce/logo.png" OpacityMask="Black"/>
+            <Button x:Name="btn_exit" Content="Выход" Margin="676,14,18,0" VerticalAlignment="Top" Height="38" Background="#FF498C51" Click="btn_exit_Click" OpacityMask="Black"/>
+        </Grid>
     </Grid>
 </Window>

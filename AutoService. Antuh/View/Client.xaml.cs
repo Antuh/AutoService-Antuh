@@ -20,9 +20,11 @@ namespace AutoService.Antuh.View
     /// </summary>
     public partial class Client : Window
     {
-        public Client()
+        public Client(string name)
         {
             InitializeComponent();
+            Name = name;
+            MessageBox.Show(Name);
 
             var product = Entities.GetContex().Product.ToList();
             LViewProduct.ItemsSource = product;
@@ -79,6 +81,13 @@ namespace AutoService.Antuh.View
         private void textSearch_SelectionChanged(object sender, System.Windows.RoutedEventArgs e)
         {
             UpdateData();
+        }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            Authorization f = new Authorization();
+            f.Show();
+            this.Close();
         }
     }
 }

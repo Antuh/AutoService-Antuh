@@ -21,6 +21,7 @@ namespace AutoService.Antuh.View
     /// </summary>
     public partial class Authorization : Window
     {
+        public string use;
         public Authorization()
         {
             InitializeComponent();
@@ -33,18 +34,22 @@ namespace AutoService.Antuh.View
 
             Entities m = new Entities();
             var authorization = m.User;
+            
 
 
 
             var user = authorization.Where(x => x.UserLogin == login && x.UserPassword == password).FirstOrDefault();
             if (user != null)
             {
+                string use = user.UserName;
                 int idpost = user.Role.RoleID;
                 MessageBox.Show("Авторизация выполнена успешно");
+                
                 switch (idpost)
                 {
                     case 1:
-                        Authorization f = new Authorization();
+                        var name = use;
+                        Client f = new Client(name);
                         f.Show();
                         break;
                 }
@@ -59,8 +64,15 @@ namespace AutoService.Antuh.View
         }
         private void btn_seeclient_Click(object sender, RoutedEventArgs e)
         {
-            Client f = new Client();
+            var name = use;
+            Client f = new Client(name);
             f.Show();
+            this.Close();
+        }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
