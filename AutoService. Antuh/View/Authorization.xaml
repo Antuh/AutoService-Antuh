@@ -20,8 +20,8 @@
             <Image HorizontalAlignment="Left" Height="46" Margin="10,10,0,0" VerticalAlignment="Top" Width="48" Source="D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\Resorce\logo.png" OpacityMask="Black"/>
             <Button x:Name="btn_exit" Content="Выход" HorizontalAlignment="Left" Margin="692,14,0,0" VerticalAlignment="Top" Width="100" Height="38" Background="#FF498C51" Click="btn_exit_Click" OpacityMask="Black"/>
         </Grid>
-        <Image x:Name="img_capcha" HorizontalAlignment="Left" Height="57" Margin="283,306,0,0" VerticalAlignment="Top" Width="234" OpacityMask="White"/>
-        <PasswordBox x:Name="tb_capcha" HorizontalAlignment="Left" Margin="282,378,0,0" VerticalAlignment="Top" Width="235" Height="31"/>
+        <Label x:Name="lb_capcha" Content="" HorizontalAlignment="Left" Margin="282,315,0,0" VerticalAlignment="Top" Width="236"/>
+        <TextBox x:Name="tb_capcha"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" FontSize="22" Margin="282,370,0,0"/>
 
     </Grid>
 </Window>

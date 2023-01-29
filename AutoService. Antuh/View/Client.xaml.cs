@@ -12,6 +12,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using AutoService.Antuh.View;
+
 
 namespace AutoService.Antuh.View
 {
@@ -20,6 +22,7 @@ namespace AutoService.Antuh.View
     /// </summary>
     public partial class Client : Window
     {
+
         public Client(string name)
         {
             InitializeComponent();
@@ -89,6 +92,23 @@ namespace AutoService.Antuh.View
             Authorization f = new Authorization();
             f.Show();
             this.Close();
+        }
+        List<Product> orderProducts = new List<Product>();
+        private User user;
+
+        private void btnAddProduct_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            orderProducts.Add(LViewProduct.SelectedItem as Product);
+            if (orderProducts.Count > 0)
+            {
+                btnOrder.Visibility = Visibility.Visible;
+            }
+        }
+        private void btnOrder_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            OrderWindow order = new OrderWindow(orderProducts, user);
+            order.ShowDialog();
+     
         }
     }
 }

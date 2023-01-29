@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\App.xaml
-31403176953
+71756009704
 2-1556844510
-24-1165066674
+28-499415495
 191711322977
-View\Authorization.xaml;View\Client.xaml;View\TimeError.xaml;
+Pages\OrderPage.xaml;Pages\OrderTicketPage.xaml;View\Authorization.xaml;View\Client.xaml;View\MainWindow.xaml;View\OrderWindow.xaml;View\TimeError.xaml;
 
 True
 

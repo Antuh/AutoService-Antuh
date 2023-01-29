@@ -24,3 +24,11 @@ D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Client.g.cs
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\Client.baml
 D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\AutoService. Antuh.csproj.AssemblyReference.cache
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\MainWindow.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\OrderWindow.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\MainWindow.baml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\View\OrderWindow.baml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\Pages\OrderPage.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\Pages\OrderTicketPage.g.cs
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\Pages\OrderPage.baml
+D:\Programmirovanie\Program\AutoService. Antuh\AutoService. Antuh\obj\Debug\Pages\OrderTicketPage.baml
